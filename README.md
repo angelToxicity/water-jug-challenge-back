@@ -91,4 +91,5 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
   -  If the target state is reached, return true.
   -  If the current state has already been visited, return false.
   -  Possible moves: Simulate all possible actions that can be performed with the jugs.
-  -  Recursion: The function calls itself to explore subsequent states.
+  -  Recursion: The function calls a while loop to explore subsequent states.
+- Algorithm: A Depth First Search (DFS) is an uninformed search algorithm used to traverse all the nodes of a graph or tree (graph theory) in an orderly but not uniform manner. It works by expanding each and every one of the nodes that it locates, recurrently, on a specific path.
