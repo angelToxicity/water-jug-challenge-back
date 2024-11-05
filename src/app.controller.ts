@@ -6,7 +6,7 @@ import { CryptoService } from "./crypto/crypto.service";
 export class AppController {
   constructor(private readonly appService: AppService, private crypto:CryptoService) {}
 
-  @Get()
+  @Get('')
   getHello(): string {
     return this.appService.getHello();
   }
